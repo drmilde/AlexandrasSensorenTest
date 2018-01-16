@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/ll_basic"
+    tools:context="com.example.milde.sensorentest.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:text="Shake to get a toast and to switch color" />
+    <TextView
+        android:id="@+id/tvSensorXVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="20dp"
+        android:text="X Value changed"
+
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tvSensorYVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="20dp"
+        android:text="Y Value changed"
+
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tvSensorZVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="20dp"
+        android:text="Z Value changed"
+
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/angle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="20dp"
+        android:text="Angle"
+
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/imageViewCompass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/image" />
+
+
+</LinearLayout>
+
